@@ -63,7 +63,7 @@ namespace irr {
             u32 height;
             u32 texture_width;
             u32 texture_height;
-            u32 format;
+            s32 format;
             u32 imageFormat = FREE_IMAGE_FORMAT::FIF_UNKNOWN;
             u8 containerVersion = 0;
 
