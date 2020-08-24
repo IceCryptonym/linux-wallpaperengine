@@ -76,7 +76,8 @@ bool CArchiveLoaderPkg::isALoadableFileFormat(irr::io::IReadFile* file) const
     if (strcmp (pointer, "PKGV0001") != 0 &&
         strcmp (pointer, "PKGV0002") != 0 &&
         strcmp (pointer, "PKGV0007") != 0 &&
-        strcmp (pointer, "PKGV0008") != 0)
+        strcmp (pointer, "PKGV0008") != 0 &&
+        strcmp (pointer, "PKGV0009") != 0)
     {
         delete [] pointer;
         return false;
