@@ -127,7 +127,8 @@ void CPkgReader::scanPkgHeader ()
     if (strcmp ("PKGV0001", headerVersion) != 0 &&
         strcmp ("PKGV0002", headerVersion) != 0 &&
         strcmp ("PKGV0007", headerVersion) != 0 &&
-        strcmp ("PKGV0008", headerVersion) != 0)
+        strcmp ("PKGV0008", headerVersion) != 0 &&
+        strcmp ("PKGV0009", headerVersion) != 0)
     {
         wp::irrlicht::device->getLogger ()->log ("Unexpected package header... Aborting load", this->mFile->getFileName ().c_str (), irr::ELL_ERROR);
 
